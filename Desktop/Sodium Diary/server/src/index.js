@@ -1,8 +1,17 @@
 import 'dotenv/config';
+import helmet from 'helmet';
 import express from 'express';
-import { pool } from './db.js'
+import cookieParser from 'cookie-parser';
+import { pool } from './db.js';
+import { authRouter } from './routes/auth.js';
+import { csrfProtection } from './middleware/csrf.js';
 
 const app = express();
+app.use(helmet());
+app.use(express.json());
+app.use(cookieParser());
+app.use('/api', csrfProtection);
+app.use('/api/auth', authRouter);
 
 app.get('/api/health', (req, res) => {
   res.json({ ok: true });

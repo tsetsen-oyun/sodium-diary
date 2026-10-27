@@ -1,0 +1,60 @@
+[
+  {
+    "canonical_name": "Egg, whole, raw, fresh",
+    "source": "usda_seed",
+    "source_ref": "171287",
+    "sodium_mg_per_100g": 142,
+    "aliases": ["egg", "eggs", "whole egg", "whole eggs"],
+    "servings": [
+      { "unit_code": "piece", "description": "1 large egg", "grams": 50, "is_default": true },
+      { "unit_code": "small", "description": "1 small egg", "grams": 38, "is_default": false },
+      { "unit_code": "medium", "description": "1 medium egg", "grams": 44, "is_default": false },
+      { "unit_code": "large", "description": "1 large egg", "grams": 50, "is_default": false },
+      { "unit_code": "extra_large", "description": "1 extra large egg", "grams": 56, "is_default": false },
+      { "unit_code": "jumbo", "description": "1 jumbo egg", "grams": 63, "is_default": false }
+    ]
+  },
+  {
+    "canonical_name": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+    "source": "usda_seed",
+    "source_ref": "171077",
+    "sodium_mg_per_100g": 45,
+    "aliases": ["chicken breast", "chicken breasts"],
+    "servings": [
+      { "unit_code": "piece", "description": "1 breast piece (raw)", "grams": 272, "is_default": true }
+    ]
+  },
+  {
+    "canonical_name": "Tofu, raw, firm, prepared with calcium sulfate",
+    "source": "usda_seed",
+    "source_ref": "172475",
+    "sodium_mg_per_100g": 14,
+    "aliases": ["tofu", "firm tofu", "bean curd"],
+    "servings": [
+      { "unit_code": "cup", "description": "1 cup (2 x USDA 0.5 cup = 126 g)", "grams": 252, "is_default": false }
+    ]
+  },
+  {
+    "canonical_name": "Bread, white, commercially prepared",
+    "source": "usda_seed",
+    "source_ref": "174924",
+    "sodium_mg_per_100g": 490,
+    "aliases": ["bread", "white bread"],
+    "servings": [
+      { "unit_code": "slice", "description": "1 slice (USDA lists 29 g and 25 g; 29 g assumed)", "grams": 29, "is_default": true },
+      { "unit_code": "thin_slice", "description": "1 thin slice", "grams": 20, "is_default": false },
+      { "unit_code": "very_thin_slice", "description": "1 very thin slice", "grams": 15, "is_default": false },
+      { "unit_code": "large_slice", "description": "1 large slice", "grams": 30, "is_default": false }
+    ]
+  },
+  {
+    "canonical_name": "Rice, white, long-grain, regular, enriched, cooked",
+    "source": "usda_seed",
+    "source_ref": "168878",
+    "sodium_mg_per_100g": 1,
+    "aliases": ["rice", "white rice", "cooked rice", "cooked white rice"],
+    "servings": [
+      { "unit_code": "cup", "description": "1 cup cooked", "grams": 158, "is_default": false }
+    ]
+  }
+]
